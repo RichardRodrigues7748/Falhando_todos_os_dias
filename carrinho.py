@@ -13,15 +13,15 @@ veiculoA = Carrinho('Audi', 'Audi A5', 2002, 400000, False)
 veiculoB = Carrinho('BMW', '320I', 2022, 500000, False)
 veiculoC = Carrinho('Fiat', 'uno', 2003, 10000, True)
 
-if veiculo1.vendido:
+if veiculoA.vendido:
     print("Veículo 1 está vendido")
 else:
     print("Veículo 1 não está vendido")
-if veiculo2.vendido:
+if veiculoB.vendido:
     print("Veículo 2 está vendido")
 else:
     print("Veículo 2 não está vendido")
-if veiculo3.vendido:
+if veiculoC.vendido:
     print("Veículo 3 está vendido")
 else:
     print("Veículo 3 não está vendido")
